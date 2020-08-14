@@ -25,7 +25,7 @@ The purpose of this project was to get some hands-on experience with the ETL (ex
 #### Data Cleaning
 A handful of steps were done to clean up the data before loading it into the databases. For the second data source, we filtered to get the top 100 highest salary players and had to split some data into the correct columns (player and team name were being merged). We incorporated a mapping file to update the team names from abbreviations to full names (ex: 'WSH' to 'Nationals') so that it'd be able to join successfully on the first data source. For more information, please refer to the jupyter notebook files.
 
-From there, we created sql relational databases for each of the two data sources by player name. Our sql tables are  called 'salaries', 'position_players', and 'pitchers'.
+From there, we created sql relational tables for each of the two data sources by player name. Our sql tables are  called 'salaries', 'position_players', and 'pitchers'.
 
 
 
