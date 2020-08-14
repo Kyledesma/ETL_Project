@@ -13,18 +13,18 @@ The purpose of this project was to get some hands-on experience with the ETL (ex
 Main question: In 2019, were the highest played players on-field production worth the salaries? 
 side quesitons: did certain postiions have a higher chance of having a higher WAR? We have split the players into position players/pitchers. Fangraph's WAR stat has 
 
+## Summary
 
-## Data Sources
+### Data Sources
 1. The first data source was a list of Player Stats CSV: 
 1. The second data source was a web scrape from [Sportrac](https://www.spotrac.com/mlb/rankings/2019/salary/) to pull player name, salary,team, position, and age for top 100 highest-paid baseball players. Please see the 'Creating_Salaries_Table' jupyter notebook file for more information on how this data was extracted and processed.
 
 
 
 #### Data Cleaning
-In order to get the two data sources to join together, we had to do a couple steps to make sure
+A handful of steps were done to clean up the data before loading it into the databases. For the second data source, we filtered to get the top 100 highest salary players and had to split some data into the correct columns (player and team name were being merged). We incorporated a mapping file to update the team names from abbreviations to full names (ex: 'WSH' to 'Nationals') so that it'd be able to join successfully on the first data source.
 
-Player Salaries:
-Team abreviations: 
+For more information, please refer to the jupyter notebook files.
 
 
 ## Instructions
