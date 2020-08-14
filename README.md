@@ -8,15 +8,15 @@ The purpose of this project was to get some hands-on experience with the ETL (ex
 
 
 
-## Summary
+## Questions to Answer
 
-Main question: In 2019, were the highest played players on-field production worth the salaries? 
-side quesitons: did certain postiions have a higher chance of having a higher WAR? We have split the players into position players/pitchers. Fangraph's WAR stat has 
+1. In 2019, were the highest played players on-field production worth the salaries? 
+1. Did certain postiions have a higher chance of having a higher WAR?
 
 ## Summary
 
 #### Data Sources
-1. The first data source was a list of Player Stats CSV: 
+1. The first data source was a list of Player Stats CSV: Fangraph's WAR stat has  We have split the players into position players/pitchers. 
 1. The second data source was a web scrape from [Sportrac](https://www.spotrac.com/mlb/rankings/2019/salary/) to pull player name, salary,team, position, and age for top 100 highest-paid baseball players. Please see the 'Creating_Salaries_Table' jupyter notebook file for more information on how this data was extracted and processed.
 
 
