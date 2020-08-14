@@ -8,12 +8,14 @@ The purpose of this project was to get some hands-on experience with the ETL (ex
 
 
 
-## Questions to Answer
+
+## Summary
+
+### Questions to Answer
 
 1. In 2019, were the highest played players on-field production worth the salaries? 
 1. Did certain postiions have a higher chance of having a higher WAR?
 
-## Summary
 
 #### Data Sources
 1. The first data source was a list of Player Stats CSV: Fangraph's WAR stat has  We have split the players into position players/pitchers. 
