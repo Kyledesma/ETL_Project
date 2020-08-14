@@ -7,11 +7,9 @@ The purpose of this project was to get some hands-on experience with the ETL (ex
 
 
 
-
-
 ## Summary
 
-### Questions to Answer
+#### Questions to Answer
 
 1. In 2019, were the highest played players on-field production worth the salaries? 
 1. Did certain postiions have a higher chance of having a higher WAR?
