@@ -29,17 +29,17 @@ For more information, please refer to the jupyter notebook files.
 
 ## Instructions
 
-#### Creating Database
+1. Creating Database
 - Create a database titled 'baseball_db' in pgAdmin
 
-#### Creating the Salaries Table
+2. Creating the Salaries Table
 - Run 'Creating_Salaries_Table' jupyter notebook file
 
-#### Creating the Player Position and Pitchers Tables
+3. Creating the Player Position and Pitchers Tables
 - Run 'Creating_Position_and_Pitchers_Table' jupyter notebook file
 
-#### Updating Schemas
+4. Updating Schemas
 - Run 'schema.sql' file to update the table metadata
 
-#### Digging in
+5. Digging in
 - The data is set up and ready to go. Feel free to use the 'example_queries.sql' file to start digging in yourself!
