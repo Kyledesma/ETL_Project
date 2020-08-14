@@ -8,15 +8,7 @@ The purpose of this project was to get some hands-on experience with the ETL (ex
 
 
 
-into databases to analyze what potential relationships exist between a baseball player'
-
-was to complile baseball-related data into databases
-
-This is a project done to practice ETL (extract, transfomr, load). For this project we wanted to look at if the highest paid baseball players were worth there salary based on field production, measured by WAR. 
-
 ## Summary
-
-
 
 Main question: In 2019, were the highest played players on-field production worth the salaries? 
 side quesitons: did certain postiions have a higher chance of having a higher WAR? We have split the players into position players/pitchers. Fangraph's WAR stat has 
@@ -28,7 +20,8 @@ side quesitons: did certain postiions have a higher chance of having a higher WA
 
 
 
-#### Methodology
+#### Data Cleaning
+In order to get the two data sources to join together, we had to do a couple steps to make sure
 
 Player Salaries:
 Team abreviations: 
