@@ -14,17 +14,19 @@ Player Salaries:
 Team abreviations: 
 
 
-## Instructions for replicating
+## Instructions
 
-### Pulling and cleaning census data
-1. Run Census_Data_v2 to create Census data
-1. Run JT Clean Census Data to clean/update the Census data
+### Creating Database
+1. Create a database titled 'baseball_db' in pgAdmin
 
-### Pulling and cleaning hospital data
-1. Run Hospital_api to pull + clean hospital data
-1. Run map_cities to update certain city values to align with census
+### Creating the Salaries Table
+1. Run 'Creating_Salaries_Table' jupyter notebook file
 
-### Graphs
-1. Run HospitalCorrelationAnalysis to generate heatmaps, scatter plots
-1. Run bar_charts to generate the bar charts
-1. Run Box_Plot to generate the box plot
+### Creating the Player Position and Pitchers Tables
+1. Run 'Creating_Position_and_Pitchers_Table' jupyter notebook file
+
+### Updating Schemas
+1. Run 'schema.sql' file to update the table metadata
+
+### Digging in
+1. The data is set up and ready to go. Feel free to use the 'example_queries.sql' file to start digging in yourself!
