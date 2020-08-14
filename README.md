@@ -8,7 +8,7 @@ Main question: In 2019, were the highest played players on-field production wort
 side quesitons: did certain postiions have a higher chance of having a higher WAR? We have split the players into position players/pitchers. Fangraph's WAR stat has 
 
 
-# Data Sources
+## Data Sources
 Player Stats CSV: 
 Player Salaries:
 Team abreviations: 
