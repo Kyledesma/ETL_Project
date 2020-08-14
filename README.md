@@ -16,17 +16,17 @@ Team abreviations:
 
 ## Instructions
 
-### Creating Database
+#### Creating Database
 1. Create a database titled 'baseball_db' in pgAdmin
 
-### Creating the Salaries Table
+#### Creating the Salaries Table
 1. Run 'Creating_Salaries_Table' jupyter notebook file
 
-### Creating the Player Position and Pitchers Tables
+#### Creating the Player Position and Pitchers Tables
 1. Run 'Creating_Position_and_Pitchers_Table' jupyter notebook file
 
-### Updating Schemas
+#### Updating Schemas
 1. Run 'schema.sql' file to update the table metadata
 
-### Digging in
+#### Digging in
 1. The data is set up and ready to go. Feel free to use the 'example_queries.sql' file to start digging in yourself!
