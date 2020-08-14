@@ -1,4 +1,4 @@
-# Baseball Stars: Are they worth all that $$?
+# Baseball Stars: Are They Worth All That $$?
 
 ## Purpose
 The purpose of this project was to get some hands-on experience with the ETL (extract, transform, and load) process. We collected various data on baseball players to analyze if there's a relationship between a player's WAR (wins above replacement) and their salary. In other words, are the highest-paid players worth the money?
