@@ -15,7 +15,7 @@ side quesitons: did certain postiions have a higher chance of having a higher WA
 
 ## Summary
 
-### Data Sources
+#### Data Sources
 1. The first data source was a list of Player Stats CSV: 
 1. The second data source was a web scrape from [Sportrac](https://www.spotrac.com/mlb/rankings/2019/salary/) to pull player name, salary,team, position, and age for top 100 highest-paid baseball players. Please see the 'Creating_Salaries_Table' jupyter notebook file for more information on how this data was extracted and processed.
 
