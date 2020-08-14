@@ -11,8 +11,9 @@ The purpose of this project was to get some hands-on experience with the ETL (ex
 
 #### Questions to Answer
 
-1. In 2019, were the highest played players on-field production worth the salaries? 
-1. Did certain postiions have a higher chance of having a higher WAR?
+1. In 2019, did the players with the highest salaries have the highest WAR(wins above replacement)?
+1. Was there any correlation between player position and WAR/salary?
+1. How does age play a role in both salary and WAR?
 
 
 #### Data Sources
