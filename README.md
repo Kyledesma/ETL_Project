@@ -3,7 +3,7 @@
 ## Purpose
 The purpose of this project was to get some hands-on experience with the ETL (extract, transform, and load) process. We collected various data on baseball players to analyze if there's a relationship between a player's WAR (wins above replacement) and their salary. In other words, are the highest-paid players worth the money?
 
-WAR has quickly become one of the best ways to compare players. This stat combines and weights a wide range of stats to truly give a players ability to generate wins over a replacement. What makes the stat popular is how applicable it is in its “replacement player” comparison. For more information of WAR and the usefulness of it, check out: [FanGraph War Description}(https://library.fangraphs.com/misc/war/)
+WAR has quickly become one of the best ways to compare players and measure a value add to a win. This stat combines and weights a wide range of stats to truly reflect a players ability to generate wins over a replacement. What makes the stat popular is how applicable it is in its “replacement player” comparison. For more information on WAR, check out: [FanGraph War Description](https://library.fangraphs.com/misc/war/)
 
 
 ## Summary
@@ -13,11 +13,11 @@ WAR has quickly become one of the best ways to compare players. This stat combin
 1. In 2019, did the players with the highest salaries have the highest WAR (wins above replacement)?
 2. Was there any correlation between player position and WAR/salary?
 3. How does age play a role in both salary and WAR?
-3. Did position players or pitchers have a higher average war
+3. Did position players or pitchers have a higher average WAR?
 
 
 #### Data Sources
-1. For the CSV, go to [FanGraph Leaderboard](https://www.fangraphs.com/leaders.aspx?pos=all&stats=bat&lg=all&qual=y&type=8&season=2019&month=0&season1=2019&ind=0). Click on export data and then save the file to a CSV file. 
+1. For data source one, I went to [FanGraph Leaderboard](https://www.fangraphs.com/leaders.aspx?pos=all&stats=bat&lg=all&qual=y&type=8&season=2019&month=0&season1=2019&ind=0) and exported data to CSV to pull the players stats for the 2019 season. 
 
 1. The second data source was a web scrape from [Sportrac](https://www.spotrac.com/mlb/rankings/2019/salary/) to pull player name, salary,team, position, and age for top 100 highest-paid baseball players for 2019. Please see the 'Creating_Salaries_Table' jupyter notebook file for more information on how this data was extracted and processed.
 
