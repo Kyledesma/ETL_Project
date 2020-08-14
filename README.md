@@ -23,7 +23,7 @@ side quesitons: did certain postiions have a higher chance of having a higher WA
 
 
 ## Data Sources
-1. The first data source was a list ofPlayer Stats CSV: 
+1. The first data source was a list of Player Stats CSV: 
 1. The second data source was a web scrape from [Sportrac](https://www.spotrac.com/mlb/rankings/2019/salary/) to pull player name, salary,team, position, and age for top 100 highest-paid baseball players. Please see the 'Creating_Salaries_Table' jupyter notebook file for more information on how this data was extracted and processed.
 
 
@@ -37,16 +37,16 @@ Team abreviations:
 ## Instructions
 
 #### Creating Database
-1. Create a database titled 'baseball_db' in pgAdmin
+- Create a database titled 'baseball_db' in pgAdmin
 
 #### Creating the Salaries Table
-1. Run 'Creating_Salaries_Table' jupyter notebook file
+- Run 'Creating_Salaries_Table' jupyter notebook file
 
 #### Creating the Player Position and Pitchers Tables
-1. Run 'Creating_Position_and_Pitchers_Table' jupyter notebook file
+- Run 'Creating_Position_and_Pitchers_Table' jupyter notebook file
 
 #### Updating Schemas
-1. Run 'schema.sql' file to update the table metadata
+- Run 'schema.sql' file to update the table metadata
 
 #### Digging in
-1. The data is set up and ready to go. Feel free to use the 'example_queries.sql' file to start digging in yourself!
+- The data is set up and ready to go. Feel free to use the 'example_queries.sql' file to start digging in yourself!
