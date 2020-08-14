@@ -14,13 +14,22 @@ was to complile baseball-related data into databases
 
 This is a project done to practice ETL (extract, transfomr, load). For this project we wanted to look at if the highest paid baseball players were worth there salary based on field production, measured by WAR. 
 
-## Summary/Questions to answer with data 
+## Summary
+
+
+
 Main question: In 2019, were the highest played players on-field production worth the salaries? 
 side quesitons: did certain postiions have a higher chance of having a higher WAR? We have split the players into position players/pitchers. Fangraph's WAR stat has 
 
 
 ## Data Sources
-Player Stats CSV: 
+1. The first data source was a list ofPlayer Stats CSV: 
+1. The second data source was a web scrape from Sportrac.com (https://www.spotrac.com/mlb/rankings/2019/salary/) to pull player name, salary,team, position, and age for top 100 highest-paid baseball players. Please see the 'Creating_Salaries_Table' jupyter notebook file for more information on how this data was extracted and processed.
+
+
+
+#### Methodology
+
 Player Salaries:
 Team abreviations: 
 
